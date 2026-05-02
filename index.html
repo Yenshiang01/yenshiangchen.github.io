@@ -1,85 +1,184 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Yen Shiang Chen - Electrical Engineer</title>
+<title>Yen Shiang Chen | Analog IC Design Engineer</title>
 
 <style>
-body {
+body{
     font-family: Arial, sans-serif;
-    max-width: 1000px;
-    margin: auto;
-    padding: 40px;
-    background: #111;
-    color: white;
-    line-height: 1.6;
+    max-width: 1050px;
+    margin:auto;
+    padding:40px;
+    background:#111;
+    color:white;
+    line-height:1.6;
 }
 
-h1 {
-    color: #00bfff;
-    margin-bottom: 5px;
+nav{
+    margin-bottom:30px;
+    font-size:15px;
 }
 
-h2 {
-    color: #00bfff;
-    border-bottom: 1px solid #333;
-    padding-bottom: 8px;
-    margin-top: 40px;
+nav a{
+    color:#00bfff;
+    text-decoration:none;
+    margin-right:18px;
 }
 
-a {
-    color: #00bfff;
-    text-decoration: none;
+h1{
+    color:#00bfff;
+    margin-bottom:5px;
+    font-size:42px;
 }
 
-.card {
-    border: 1px solid #333;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 12px;
-    background: #1a1a1a;
+h2{
+    color:#00bfff;
+    border-bottom:1px solid #333;
+    padding-bottom:8px;
+    margin-top:45px;
 }
 
-.small {
-    color: #aaa;
-    font-size: 14px;
+.card{
+    border:1px solid #333;
+    background:#1a1a1a;
+    padding:22px;
+    border-radius:12px;
+    margin-top:20px;
 }
 
-ul {
-    padding-left: 20px;
+.small{
+    color:#aaa;
+    font-size:14px;
 }
 
-li {
-    margin-bottom: 8px;
+a{
+    color:#00bfff;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.highlight{
+    color:#00bfff;
+    font-weight:bold;
 }
 </style>
 </head>
 
 <body>
 
+<nav>
+<a href="index.html">Home</a>
+<a href="adc.html">ADC</a>
+<a href="pll.html">PLL</a>
+<a href="buckboost.html">Buck-Boost</a>
+</nav>
+
 <h1>Yen Shiang Chen</h1>
+
 <p>
-Electrical Engineer | Analog IC Design | Power Management | Mixed-Signal Systems
+Analog IC Design Engineer | Power Management | Mixed-Signal Systems
 </p>
 
 <p>
 📍 Munich, Germany <br>
-📧 beetle0723@gmail.com <br>
-📞 +49 15229723613
+📧 <a href="mailto:beetle0723@gmail.com">beetle0723@gmail.com</a><br>
+📞 +49 15229723613 <br>
+🔗 <a href="https://www.linkedin.com/in/yen-shiang-chen-73b78a21a" target="_blank">LinkedIn</a>
 </p>
 
 <h2>About Me</h2>
+
+<div class="card">
 <p>
-M.S. student in Communication & Electronics Engineering at Technical University of Munich with hands-on experience in analog IC design, buck-boost converters, LDOs, ADCs, PLLs, and semiconductor reliability modeling. Industry experience at Texas Instruments and Infineon Technologies.
+M.S. student in Communication & Electronics Engineering at Technical University of Munich with hands-on experience in analog and mixed-signal IC design, power converters, PLLs, ADCs, LDOs, and reliability modeling. Industry experience at <span class="highlight">Texas Instruments</span> and <span class="highlight">Infineon Technologies</span>.
 </p>
+</div>
+
+<h2>Experience Highlights</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Texas Instruments</h3>
+<p class="small">Master Thesis | Nov 2025 – Present</p>
+<p>
+Designed PFM-controlled buck-boost converter with out-of-audio switching operation. Built behavioral and transistor-level implementations using SIMPLIS, MATLAB, and Cadence Virtuoso.
+</p>
+</div>
+
+<div class="card">
+<h3>Texas Instruments</h3>
+<p class="small">Analog Design Intern | Apr 2025 – Oct 2025</p>
+<p>
+Designed capless LDO with wide input range and fast transient response. Improved converter ripple by 50%.
+</p>
+</div>
+
+<div class="card">
+<h3>Infineon Technologies</h3>
+<p class="small">Working Student | Jul 2024 – Feb 2025</p>
+<p>
+Automated characterization flows, developed SPICE aging models, and validated EDA simulation flows.
+</p>
+</div>
+
+</div>
+
+<h2>Featured Projects</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>CMOS Delta-Sigma ADC</h3>
+<p>
+Designed second-order ADC achieving 65 dB SNR with rail-to-rail OTA.
+</p>
+<p><a href="adc.html">View Full Project →</a></p>
+</div>
+
+<div class="card">
+<h3>Charge Pump PLL</h3>
+<p>
+Implemented PFD, charge pump, loop filter, VCO, and divider with optimized jitter.
+</p>
+<p><a href="pll.html">View Full Project →</a></p>
+</div>
+
+<div class="card">
+<h3>Buck-Boost Converter</h3>
+<p>
+PFM-controlled converter with ripple reduction and efficient regulation.
+</p>
+<p><a href="buckboost.html">View Full Project →</a></p>
+</div>
+
+</div>
+
+<h2>Technical Skills</h2>
+
+<div class="card">
+<p>
+<b>Analog / Mixed Signal:</b> PLL, ADC, LDO, OPAMP, Buck/Boost, Switched Capacitor<br><br>
+
+<b>EDA Tools:</b> Cadence Virtuoso, HSPICE, LTspice, SIMPLIS<br><br>
+
+<b>Programming:</b> MATLAB, Simulink, Python, C++, Verilog-A, Unix<br><br>
+
+<b>Languages:</b> Chinese (Native), English (Fluent), German (B2)
+</p>
+</div>
 
 <h2>Education</h2>
 
 <div class="card">
-<h3>Technical University of Munich (TUM)</h3>
-<p class="small">M.S. Communication & Electronics Engineering | May 2026</p>
+<h3>Technical University of Munich</h3>
+<p class="small">M.S. Communication & Electronics Engineering | Expected May 2026</p>
 <p>GPA: 1.9</p>
 </div>
 
@@ -89,85 +188,14 @@ M.S. student in Communication & Electronics Engineering at Technical University 
 <p>GPA: 3.83 / 4.3</p>
 </div>
 
-<h2>Experience</h2>
-
-<div class="card">
-<h3>Texas Instruments</h3>
-<p class="small">Master Thesis | Nov 2025 – Present | Freising, Germany</p>
-<ul>
-<li>Designed PFM-controlled buck-boost converter with out-of-audio switching operation.</li>
-<li>Behavioral modeling using SIMPLIS and MATLAB for DCM stability analysis.</li>
-<li>Transistor-level implementation in Cadence Virtuoso.</li>
-</ul>
-</div>
-
-<div class="card">
-<h3>Texas Instruments</h3>
-<p class="small">Analog Design Intern | Apr 2025 – Oct 2025</p>
-<ul>
-<li>Designed capless LDO with wide input range and fast transient response.</li>
-<li>Improved buck-boost ripple by 50% using innovative voltage clamp structures.</li>
-</ul>
-</div>
-
-<div class="card">
-<h3>Infineon Technologies</h3>
-<p class="small">Working Student | Jul 2024 – Feb 2025 | Munich</p>
-<ul>
-<li>Automated verification flows for device characterization.</li>
-<li>Developed SPICE reliability and aging models.</li>
-<li>Validated Cadence Virtuoso aging simulations.</li>
-</ul>
-</div>
-
-<h2>Projects</h2>
-
-<div class="card">
-<h3>CMOS Delta-Sigma ADC Design</h3>
-<ul>
-<li>Designed second-order ADC achieving 65 dB SNR.</li>
-<li>Built rail-to-rail OTA for integrator stages.</li>
-<li>Verified loop stability in MATLAB / Simulink.</li>
-</ul>
-</div>
-
-<div class="card">
-<h3>Charge Pump PLL Design</h3>
-<ul>
-<li>Implemented PLL including PFD, CP, loop filter, VCO, divider.</li>
-<li>Optimized phase noise and jitter performance.</li>
-<li>System-level + transistor-level verification.</li>
-</ul>
-</div>
-
-<div class="card">
-<h3>Switched Capacitor DC-DC Converter</h3>
-<ul>
-<li>Dual-mode high/low load operation.</li>
-<li>Achieved 70% efficiency.</li>
-</ul>
-</div>
-
-<h2>Technical Skills</h2>
-
-<div class="card">
-<p>
-<b>Analog / Mixed Signal:</b> PLL, ADC, LDO, Buck/Boost, OPAMP, Switched Capacitor<br><br>
-
-<b>Tools:</b> Cadence Virtuoso, HSPICE, LTspice, SIMPLIS, MATLAB, Simulink<br><br>
-
-<b>Programming:</b> Python, C++, Verilog-A, Unix<br><br>
-
-<b>Languages:</b> Chinese, English, German (B2)
-</p>
-</div>
-
 <h2>Contact</h2>
 
+<div class="card">
 <p>
 Email: <a href="mailto:beetle0723@gmail.com">beetle0723@gmail.com</a><br>
-LinkedIn: www.linkedin.com/in/yen-shiang-chen-73b78a21a<br>
+LinkedIn: <a href="https://www.linkedin.com/in/yen-shiang-chen-73b78a21a" target="_blank">Connect Here</a>
 </p>
+</div>
 
 </body>
 </html>
