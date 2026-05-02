@@ -1,46 +1,174 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Your Name - Electrical Engineer</title>
-  <style>
-    body {
-      font-family: Arial;
-      max-width: 900px;
-      margin: auto;
-      padding: 40px;
-      background: #111;
-      color: white;
-    }
-    h1 { color: #00bfff; }
-    .project {
-      border: 1px solid #333;
-      padding: 20px;
-      margin: 20px 0;
-      border-radius: 10px;
-    }
-    a { color: #00bfff; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yen Shiang Chen - Electrical Engineer</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+    background: #111;
+    color: white;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #00bfff;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #00bfff;
+    border-bottom: 1px solid #333;
+    padding-bottom: 8px;
+    margin-top: 40px;
+}
+
+a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.card {
+    border: 1px solid #333;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    background: #1a1a1a;
+}
+
+.small {
+    color: #aaa;
+    font-size: 14px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+</style>
 </head>
+
 <body>
 
-<h1>Your Name</h1>
-<p>Electrical Engineering Student | Embedded Systems | PCB Design</p>
+<h1>Yen Shiang Chen</h1>
+<p>
+Electrical Engineer | Analog IC Design | Power Management | Mixed-Signal Systems
+</p>
+
+<p>
+📍 Munich, Germany <br>
+📧 beetle0723@gmail.com <br>
+📞 +49 15229723613
+</p>
+
+<h2>About Me</h2>
+<p>
+M.S. student in Communication & Electronics Engineering at Technical University of Munich with hands-on experience in analog IC design, buck-boost converters, LDOs, ADCs, PLLs, and semiconductor reliability modeling. Industry experience at Texas Instruments and Infineon Technologies.
+</p>
+
+<h2>Education</h2>
+
+<div class="card">
+<h3>Technical University of Munich (TUM)</h3>
+<p class="small">M.S. Communication & Electronics Engineering | May 2026</p>
+<p>GPA: 1.9</p>
+</div>
+
+<div class="card">
+<h3>National Yang Ming Chiao Tung University</h3>
+<p class="small">B.S. Electrical Engineering | June 2022</p>
+<p>GPA: 3.83 / 4.3</p>
+</div>
+
+<h2>Experience</h2>
+
+<div class="card">
+<h3>Texas Instruments</h3>
+<p class="small">Master Thesis | Nov 2025 – Present | Freising, Germany</p>
+<ul>
+<li>Designed PFM-controlled buck-boost converter with out-of-audio switching operation.</li>
+<li>Behavioral modeling using SIMPLIS and MATLAB for DCM stability analysis.</li>
+<li>Transistor-level implementation in Cadence Virtuoso.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Texas Instruments</h3>
+<p class="small">Analog Design Intern | Apr 2025 – Oct 2025</p>
+<ul>
+<li>Designed capless LDO with wide input range and fast transient response.</li>
+<li>Improved buck-boost ripple by 50% using innovative voltage clamp structures.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Infineon Technologies</h3>
+<p class="small">Working Student | Jul 2024 – Feb 2025 | Munich</p>
+<ul>
+<li>Automated verification flows for device characterization.</li>
+<li>Developed SPICE reliability and aging models.</li>
+<li>Validated Cadence Virtuoso aging simulations.</li>
+</ul>
+</div>
 
 <h2>Projects</h2>
 
-<div class="project">
-  <h3>Smart Energy Monitor</h3>
-  <p>Built an ESP32-based power monitoring system with WiFi dashboard.</p>
+<div class="card">
+<h3>CMOS Delta-Sigma ADC Design</h3>
+<ul>
+<li>Designed second-order ADC achieving 65 dB SNR.</li>
+<li>Built rail-to-rail OTA for integrator stages.</li>
+<li>Verified loop stability in MATLAB / Simulink.</li>
+</ul>
 </div>
 
-<div class="project">
-  <h3>Motor Driver PCB</h3>
-  <p>Designed custom PCB for DC motor control using MOSFET H-bridge.</p>
+<div class="card">
+<h3>Charge Pump PLL Design</h3>
+<ul>
+<li>Implemented PLL including PFD, CP, loop filter, VCO, divider.</li>
+<li>Optimized phase noise and jitter performance.</li>
+<li>System-level + transistor-level verification.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Switched Capacitor DC-DC Converter</h3>
+<ul>
+<li>Dual-mode high/low load operation.</li>
+<li>Achieved 70% efficiency.</li>
+</ul>
+</div>
+
+<h2>Technical Skills</h2>
+
+<div class="card">
+<p>
+<b>Analog / Mixed Signal:</b> PLL, ADC, LDO, Buck/Boost, OPAMP, Switched Capacitor<br><br>
+
+<b>Tools:</b> Cadence Virtuoso, HSPICE, LTspice, SIMPLIS, MATLAB, Simulink<br><br>
+
+<b>Programming:</b> Python, C++, Verilog-A, Unix<br><br>
+
+<b>Languages:</b> Chinese, English, German (B2)
+</p>
 </div>
 
 <h2>Contact</h2>
-<p>Email: your@email.com</p>
-<p>LinkedIn: add your link</p>
+
+<p>
+Email: <a href="mailto:beetle0723@gmail.com">beetle0723@gmail.com</a><br>
+LinkedIn: Add your link here<br>
+GitHub: Add your GitHub here
+</p>
 
 </body>
 </html>
